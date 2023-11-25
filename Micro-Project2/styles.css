@@ -1,0 +1,16 @@
+.parent{
+    background-color: bisque;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.child{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    /* transform: translate(-50%,-50%); */
+    /* right: 0px; */
+}

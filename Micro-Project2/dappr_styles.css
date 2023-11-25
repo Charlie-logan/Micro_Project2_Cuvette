@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1800px;
+    width: 100%;
+}
+.parent{
+    position: relative;
+}
+.navbar{
+    height: 127px;
+    width: 100%;
+    background-color: rgb(87, 87, 205);
+    display: flex;
+    align-items: center;
+}
+#nav_text{
+    padding: 24px;
+    color: white;
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    font-weight: 600;
+}
+.items{
+    list-style-type: none;
+    height: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 25px;
+}
+.se{
+    height: 57px;
+    width: 314px;
+    background-color: white;
+    position: relative;
+    border-radius: 50px;
+}
+.se1{
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.ic{
+    height:20px;
+    width:20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.ha{
+    height: 47px;
+    width: 67px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.container-main{
+
+    height: 1695px;
+    width: 86vw;
+    /* background-color: brown; */
+    /* margin: 200px; */
+    position: absolute;
+    top: 289px;
+    left: 101px;
+    margin-bottom: 289px;
+}
+
+.card1{
+    width: 435px;
+    height: 507px;
+    background-color: aqua;
+    position: absolute;
+    left: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2{
+    width: 850px;
+    height: 507px;
+    background: linear-gradient(0deg, #E5D8FF, #E5D8FF),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    position: absolute;
+    left: 470px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.t1{
+    width: 802px;
+    height: 83px;
+    position: absolute;
+    top: 29px;
+    left: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 29px;
+    color: rgba(111, 115, 115, 1);
+    font-weight: 400;
+}
+.con-rect-head{
+    margin-top: 600px;
+}
+.con-rects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.items-rect{
+    width: 301px;
+    height: 146px;
+    border-radius: 11px;
+}
+.rect1{
+    background: rgba(146, 157, 255, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+
+
+}
+.rect2{
+    background: rgba(115, 76, 242, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+
+}
+.rect3{
+    background: rgba(210, 136, 255, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+
+}
+.rect4{
+    background: rgba(0, 0, 0, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+
+}
+.p1{
+    width: 260px;
+    height: 36px;
+    margin: 20px;
+    font-family: cursive;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.cont-prof{
+    width: 86vw;
+    height: 717px;
+    background: rgba(72, 62, 255, 1);
+    position: absolute;
+    top: 900px;
+    border-radius: 21px;
+}
+
+.prof1{
+    width: 400px;
+    height: 650px;
+    /* background-color: thistle; */
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-prof{
+    width: 355px;
+    height: 133px;
+}
+.pro1{
+    background: rgba(188, 224, 246, 1);
+    border-radius: 22px;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+
+}
+.pro2{
+    /* background: rgba(255, 255, 255, 1); */
+    border-radius: 22px;
+    border: 5px solid rgba(255, 255, 255, 1);
+
+}
+.pro3{
+    /* background: rgba(255, 255, 255, 1); */
+    border-radius: 22px;
+    border: 5px solid rgba(255, 255, 255, 1);
+}
+.pr1{
+    margin: 33px;
+    margin-left: 64px;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.pr2{
+    margin: 35px;
+    margin-left: 64px;
+    color: rgba(255, 255, 255, 1);
+    ;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.prof2{
+    width: 855px;
+    height: 656px;
+    background-color: chocolate;
+    position: absolute;
+    top: 34px;
+    left: 445px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 19px;
+    color: black;
+    position: absolute;
+}
+.ur{
+    margin: 45px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    
+}
+.inan{
+    display: flex;
+}
+.in{
+    margin-left: 80px;
+    width: 181px;
+    height: 311px;
+    /* background-color: aquamarine; */
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    color: rgba(4, 40, 90, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.an{
+    width: 237px;
+    height: 311px;
+    /* background-color: tomato; */
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(20, 53, 101, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nex{
+    width: 185px;
+    height: 78px;
+    background: rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 79px;
+    right: 105px;
+    border-radius: 9px;
+}
+.nex-btn{
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin: 21px;
+    margin-left: 46px;
+}
+.supp{
+    position: fixed;
+    bottom: 0px;
+    right: 65px;
+}
+.soc {
+    position: sticky;
+    top: 20px; /* Adjust this value as needed */
+    margin-left: 1431px;
+    margin-top: 178px;
+    /* width: 79px;
+    height: 261px;
+    background-color: coral; */
+    overflow-y: auto; /* Ensure there is a scrollbar if needed */
+}
